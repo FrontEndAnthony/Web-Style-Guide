@@ -22,4 +22,5 @@ $french-lilac: #deb2ee;
 
 // Media query breakpoint
 
-$brk-screen: '(max-width: 768px)';
+$brk-narrow: '(max-width: 768px)';
+$brk-wide: '(max-width: 1024px)';
