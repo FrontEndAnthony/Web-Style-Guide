@@ -3,8 +3,8 @@
 /* ============================================= */
 
 .nav {
+    @extend %f-basis;
     padding-left: 0;
-    flex-basis: 100%;
     display: flex;
     flex-direction: column;
   }

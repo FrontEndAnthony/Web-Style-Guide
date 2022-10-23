@@ -5,15 +5,11 @@
 
     .container {
       max-width: 1400px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
+      @extend %d-margin;
     }
     
     .centered {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
+      @extend %d-margin;
     }
     
     .row {

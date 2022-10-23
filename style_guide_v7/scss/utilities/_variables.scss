@@ -32,3 +32,19 @@ $color-warning: $coral;
 // Media query breakpoints
 
 $brk-narrow: '(min-width: 768px)';
+
+// Extends
+
+%f-basis {
+    flex-basis: 100%;
+}
+
+%f-weight {
+    font-weight: 300;
+}
+
+%d-margin {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
