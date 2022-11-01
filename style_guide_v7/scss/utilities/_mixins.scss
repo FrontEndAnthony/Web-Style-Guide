@@ -1,2 +1,10 @@
 
-// Web fonts
+// UI colors
+
+@mixin style-colors($map) {
+    @each $theme, $color in $map {
+        &--#{$theme} {
+            background-color: $color;
+        }
+    }
+}

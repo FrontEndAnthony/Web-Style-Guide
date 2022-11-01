@@ -2,7 +2,7 @@
 
 $white: #fff;
 $viking: #58e1c1;
-$malibu: #51ddfc;
+$malibu: #51ddfc; // .default in _buttons.scss
 $silver: #ccc;
 $boulder: #777;
 $sunglo: #e4757a; // .error in _buttons.scss
@@ -20,13 +20,19 @@ $french-lilac: #deb2ee;
 // Functional color variables
 
 $color-primary: $viking;
-$color-secondary: $malibu;
+$color-default: $malibu;
 $img-frame-border: $silver;
 $base-font-color: $boulder;
-$color-error: $sunglo;
-$color-info: $purple-mountain-majesty;
-$color-success: $emerald;
-$color-warning: $coral;
+
+// UI Colors
+
+$ui-colors: (
+    default: $malibu,
+    success: $emerald,
+    info: $purple-mountain-majesty,
+    warning: $coral,
+    error: $sunglo,
+);
 
 // Font stacks
 
@@ -51,3 +57,4 @@ $brk-narrow: '(min-width: 768px)';
     margin-left: auto;
     margin-right: auto;
 }
+
