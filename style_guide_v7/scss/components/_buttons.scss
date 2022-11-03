@@ -10,24 +10,35 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
+    &:hover {
+      background: lighten($color, 15%);
+    }
   }
   
-  .default {
-    background-color: $color-default;
-  }
+//  .default {
+//     background-color: $color-default;
+//   }
   
-  .error {
-    background-color: $color-error;
-  }
+//  .error {
+//     background-color: $color-error;
+//   }
   
-  .info {
-    background-color: $color-info;
-  }
+//  .info {
+//     background-color: $color-info;
+//   }
   
-  .success {
-    background-color: $color-success;
-  }
+//  .success {
+//     background-color: $color-success;
+//   }
   
+//  .warning {
+//     background-color: $color-warning;
+//   }
+
+  .default,
+  .error,
+  .info,
+  .success,
   .warning {
-    background-color: $color-warning;
+    @include style-colors ($ui-colors);
   }
